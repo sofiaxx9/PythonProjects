@@ -56,3 +56,6 @@ logicka = True
 l2 = False
 
 llll = logicka * l2 or #and je soucin *
+
+print(type logicka))
+print(not logicka)

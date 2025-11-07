@@ -35,6 +35,6 @@ print(promenna[10:5:-2])
 print(promenna[5:]) #kdyz tam neni ta druha promenna tak to znamena az do konce nebo od zacatku(viz dole)
 print(promenna[:5])
 print(promenna[:5:-1]) #na to prazdny doplni to nejvetsi cislo
-print(promenna[::-1]) #na to prvni prazdny doplni to nejvetsi na to druhy prazdny nejmensi
+print(promenna[::-1]) #na to prvni prazdny doplni to nejvetsi na to druhy prazdny nejmensi- inverze
 
 print(promenna.index("au"))

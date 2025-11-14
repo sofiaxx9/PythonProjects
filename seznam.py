@@ -14,6 +14,13 @@ print(type(p2[0])) #integer
 print((p2[1]))
 print(type(p2[1]))#string
 
+print(p2)
+print(type(p2))
+print(p2[1:4]) #slicing
+
+print(p2[2]) #float- vraci to cislo-konkretni prvrk
+print(type(p2[2:3])) #list- ze slicingu bude vzdy list
+
 x=[1,2,8,4,6,11,7,4]
 
 for i in range(len(x)):

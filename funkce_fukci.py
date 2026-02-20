@@ -8,3 +8,13 @@ def vynasob_soucet_a_rozdil(a,b,c,d):
     return soucet * rozdil
 vysledek = vynasob_soucet_a_rozdil(1,2,3,4)
 print("vysledek (a+b) * (c-d) =" + str(vysledek))
+
+def kalkulacka(a,b, funkce):
+    return funkce(a,b)
+vysledek = vynasob_soucet_a_rozdil(1,2,5,3)
+print("vysledek (a+b) * (c-d) ="+ str(vysledek))
+
+vysledek2= kalkulacka(2,3,secti)
+vysledek3= kalkulacka(2,3,odecti)
+print(vysledek2)
+print(vysledek3)
